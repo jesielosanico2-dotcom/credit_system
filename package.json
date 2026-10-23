@@ -1,0 +1,13 @@
+{
+  "name": "credence-credit-management",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node backend/server.mjs",
+    "start": "node backend/server.mjs",
+    "migrate:sqlite": "node scripts/migrate-sqlite-to-mysql.mjs"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.5"
+  }
+}
